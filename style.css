@@ -1,13 +1,13 @@
 :root {
-    --main-purple: #5c1f94;
-    --light-purple: #f0e7ff;
-    --background-color: #f5f5f5;
+    --main-green: #28a745;
+    --light-green: #d4f8e7;
+    --background-color: #f3f9f3;
     --container-bg: #ffffff;
-    --box-shadow-color: rgba(0, 0, 0, 0.2);
+    --box-shadow-color: rgba(0, 0, 0, 0.15);
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -25,7 +25,7 @@ body {
 
 h2 {
     margin-bottom: 20px;
-    color: var(--main-purple);
+    color: var(--main-green);
     font-size: 24px;
 }
 
@@ -45,17 +45,18 @@ input, button {
 
 input:focus, button:focus {
     outline: none;
-    border-color: var(--main-purple);
+    border-color: var(--main-green);
 }
 
 button {
-    background-color: var(--main-purple);
+    background-color: var(--main-green);
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: darken(var(--main-purple), 10%);
+    background-color: #218838;
 }
+
 
