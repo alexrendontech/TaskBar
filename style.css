@@ -1,0 +1,31 @@
+:root {
+    --main-purple: #1404f4;
+    --light-purple: #ccf7f6;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: var(--light-purple);
+  }
+  
+  .container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: var(--main-purple);
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
