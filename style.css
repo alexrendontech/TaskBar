@@ -1,5 +1,5 @@
 :root {
-   
+    --main-color: #ff6347; /* New main color (Tomato Red) */
     --light-color: #ffe4e1; /* New light color (Misty Rose) */
     --background-color: #f5f5f5; /* New background color (Light Gray) */
     --font-family: 'Roboto', sans-serif; /* New font family */
